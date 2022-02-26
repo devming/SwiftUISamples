@@ -14,6 +14,8 @@ struct ContentView: View {
     
     @State var users: [User] = []
     
+    @State var searchText: String = ""
+    
     var body: some View {
         NavigationView {
             List(users) { user in
@@ -27,6 +29,22 @@ struct ContentView: View {
             .refreshable {
                 await fetchUsers()
             }
+            // searchable은 Navigation View와 사용할 수 있다.
+            .searchable(text: $searchText, prompt: "Search User", suggestions: {
+                
+                // search field가 활성화될 때 보여주는 리스트
+                ForEach(
+                    users.filter {
+                        searchText == ""
+                        ? true
+                        : $0.email.lowercased().contains(searchText.lowercased())
+                    }
+                ) { user in
+                    Text(user.email)
+                    // cell 탭했을 때, 검색어 자동완성되도록
+                        .searchCompletion(user.name)
+                }
+            })
             .navigationTitle("Pull To Refresh")
         }
     }
