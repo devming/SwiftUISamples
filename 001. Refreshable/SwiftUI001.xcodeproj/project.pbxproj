@@ -18,6 +18,7 @@
 		CA4A59BE27D32D7D008553ED /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4A59BD27D32D7D008553ED /* ContentView2.swift */; };
 		CAF9817627D3440900C3FB38 /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF9817527D3440900C3FB38 /* SwipeAction.swift */; };
 		CAF9817827D3461500C3FB38 /* AppStorageRawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF9817727D3461500C3FB38 /* AppStorageRawRepresentable.swift */; };
+		CAF9817A27D3479700C3FB38 /* KeyboardDoneAlternatives.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF9817927D3479700C3FB38 /* KeyboardDoneAlternatives.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		CA4A59BD27D32D7D008553ED /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 		CAF9817527D3440900C3FB38 /* SwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
 		CAF9817727D3461500C3FB38 /* AppStorageRawRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageRawRepresentable.swift; sourceTree = "<group>"; };
+		CAF9817927D3479700C3FB38 /* KeyboardDoneAlternatives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardDoneAlternatives.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				CA23D31627D342C400CA53DA /* CustomSheetDismiss.swift */,
 				CAF9817527D3440900C3FB38 /* SwipeAction.swift */,
 				CAF9817727D3461500C3FB38 /* AppStorageRawRepresentable.swift */,
+				CAF9817927D3479700C3FB38 /* KeyboardDoneAlternatives.swift */,
 				CA49C92127C4E8EB0004334C /* Assets.xcassets */,
 				CA49C92327C4E8EB0004334C /* Preview Content */,
 			);
@@ -165,6 +168,7 @@
 				CA23D31527D33F6C00CA53DA /* SafeAreaInset.swift in Sources */,
 				CA23D31727D342C400CA53DA /* CustomSheetDismiss.swift in Sources */,
 				CAF9817827D3461500C3FB38 /* AppStorageRawRepresentable.swift in Sources */,
+				CAF9817A27D3479700C3FB38 /* KeyboardDoneAlternatives.swift in Sources */,
 				CA4A59BE27D32D7D008553ED /* ContentView2.swift in Sources */,
 				CA49C91E27C4E8EA0004334C /* SwiftUI001App.swift in Sources */,
 			);
