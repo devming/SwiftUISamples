@@ -17,6 +17,7 @@
 		CA49C92527C4E8EB0004334C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA49C92427C4E8EB0004334C /* Preview Assets.xcassets */; };
 		CA4A59BE27D32D7D008553ED /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4A59BD27D32D7D008553ED /* ContentView2.swift */; };
 		CAF9817627D3440900C3FB38 /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF9817527D3440900C3FB38 /* SwipeAction.swift */; };
+		CAF9817827D3461500C3FB38 /* AppStorageRawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF9817727D3461500C3FB38 /* AppStorageRawRepresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		CA49C92427C4E8EB0004334C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CA4A59BD27D32D7D008553ED /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 		CAF9817527D3440900C3FB38 /* SwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
+		CAF9817727D3461500C3FB38 /* AppStorageRawRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageRawRepresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				CA23D31427D33F6B00CA53DA /* SafeAreaInset.swift */,
 				CA23D31627D342C400CA53DA /* CustomSheetDismiss.swift */,
 				CAF9817527D3440900C3FB38 /* SwipeAction.swift */,
+				CAF9817727D3461500C3FB38 /* AppStorageRawRepresentable.swift */,
 				CA49C92127C4E8EB0004334C /* Assets.xcassets */,
 				CA49C92327C4E8EB0004334C /* Preview Content */,
 			);
@@ -161,6 +164,7 @@
 				CAF9817627D3440900C3FB38 /* SwipeAction.swift in Sources */,
 				CA23D31527D33F6C00CA53DA /* SafeAreaInset.swift in Sources */,
 				CA23D31727D342C400CA53DA /* CustomSheetDismiss.swift in Sources */,
+				CAF9817827D3461500C3FB38 /* AppStorageRawRepresentable.swift in Sources */,
 				CA4A59BE27D32D7D008553ED /* ContentView2.swift in Sources */,
 				CA49C91E27C4E8EA0004334C /* SwiftUI001App.swift in Sources */,
 			);
