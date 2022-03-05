@@ -25,7 +25,9 @@ struct ContentView2: View {
                         image.resizable()
                             .aspectRatio(contentMode: .fill)
                             .frame(width: 300, height: 300)
-                            .cornerRadius(10)
+//                            .cornerRadius(10)
+                        // Blur Effect (aka. UIVisualEffectView)
+                            .overlay(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 10))
                     } else {
                         Image(systemName: "house.fill")
                             .font(.largeTitle)
