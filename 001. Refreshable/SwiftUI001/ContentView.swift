@@ -18,11 +18,17 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            List(users) { user in
-                VStack(alignment: .leading, spacing: 4) {
-                    Text(user.name)
-                    Text(user.email)
-                        .font(.caption)
+//            List(users) { user in
+            List {
+                ForEach(users) { user in
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text(user.name)
+                        Text(user.email)
+                            .font(.caption)
+                    }
+                    // Row seperator customazation
+                    .listRowSeparatorTint(.red)
+                    .listRowSeparator(.hidden)
                 }
             }
             // Indicator will show until async task finished
