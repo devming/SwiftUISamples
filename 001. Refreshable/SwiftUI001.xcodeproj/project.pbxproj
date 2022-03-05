@@ -19,6 +19,7 @@
 		CAF9817627D3440900C3FB38 /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF9817527D3440900C3FB38 /* SwipeAction.swift */; };
 		CAF9817827D3461500C3FB38 /* AppStorageRawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF9817727D3461500C3FB38 /* AppStorageRawRepresentable.swift */; };
 		CAF9817A27D3479700C3FB38 /* KeyboardDoneAlternatives.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF9817927D3479700C3FB38 /* KeyboardDoneAlternatives.swift */; };
+		CAF9817C27D3482300C3FB38 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF9817B27D3482300C3FB38 /* Canvas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		CAF9817527D3440900C3FB38 /* SwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
 		CAF9817727D3461500C3FB38 /* AppStorageRawRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageRawRepresentable.swift; sourceTree = "<group>"; };
 		CAF9817927D3479700C3FB38 /* KeyboardDoneAlternatives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardDoneAlternatives.swift; sourceTree = "<group>"; };
+		CAF9817B27D3482300C3FB38 /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				CAF9817527D3440900C3FB38 /* SwipeAction.swift */,
 				CAF9817727D3461500C3FB38 /* AppStorageRawRepresentable.swift */,
 				CAF9817927D3479700C3FB38 /* KeyboardDoneAlternatives.swift */,
+				CAF9817B27D3482300C3FB38 /* Canvas.swift */,
 				CA49C92127C4E8EB0004334C /* Assets.xcassets */,
 				CA49C92327C4E8EB0004334C /* Preview Content */,
 			);
@@ -166,6 +169,7 @@
 				CA23D31127D3336700CA53DA /* TabExView.swift in Sources */,
 				CAF9817627D3440900C3FB38 /* SwipeAction.swift in Sources */,
 				CA23D31527D33F6C00CA53DA /* SafeAreaInset.swift in Sources */,
+				CAF9817C27D3482300C3FB38 /* Canvas.swift in Sources */,
 				CA23D31727D342C400CA53DA /* CustomSheetDismiss.swift in Sources */,
 				CAF9817827D3461500C3FB38 /* AppStorageRawRepresentable.swift in Sources */,
 				CAF9817A27D3479700C3FB38 /* KeyboardDoneAlternatives.swift in Sources */,
