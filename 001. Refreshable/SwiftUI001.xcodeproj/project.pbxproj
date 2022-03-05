@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA23D31127D3336700CA53DA /* TabExView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23D31027D3336700CA53DA /* TabExView.swift */; };
 		CA49C91E27C4E8EA0004334C /* SwiftUI001App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA49C91D27C4E8EA0004334C /* SwiftUI001App.swift */; };
 		CA49C92027C4E8EA0004334C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA49C91F27C4E8EA0004334C /* ContentView.swift */; };
 		CA49C92227C4E8EB0004334C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA49C92127C4E8EB0004334C /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA23D31027D3336700CA53DA /* TabExView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabExView.swift; sourceTree = "<group>"; };
 		CA49C91A27C4E8EA0004334C /* SwiftUI001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI001.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA49C91D27C4E8EA0004334C /* SwiftUI001App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI001App.swift; sourceTree = "<group>"; };
 		CA49C91F27C4E8EA0004334C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				CA49C91D27C4E8EA0004334C /* SwiftUI001App.swift */,
 				CA49C91F27C4E8EA0004334C /* ContentView.swift */,
 				CA4A59BD27D32D7D008553ED /* ContentView2.swift */,
+				CA23D31027D3336700CA53DA /* TabExView.swift */,
 				CA49C92127C4E8EB0004334C /* Assets.xcassets */,
 				CA49C92327C4E8EB0004334C /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA49C92027C4E8EA0004334C /* ContentView.swift in Sources */,
+				CA23D31127D3336700CA53DA /* TabExView.swift in Sources */,
 				CA4A59BE27D32D7D008553ED /* ContentView2.swift in Sources */,
 				CA49C91E27C4E8EA0004334C /* SwiftUI001App.swift in Sources */,
 			);
